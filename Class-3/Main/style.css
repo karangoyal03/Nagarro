@@ -1,0 +1,50 @@
+.box{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+.navbar ul li:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar ul li:active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navbar{
+    background-color: #2d3142;
+    position: fixed;
+    width:90%;
+}
+img{
+  width: 100%;
+  margin-top:50px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow:row;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li{
+    padding: 15px;
+    list-style-type: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+@media (max-width: 600px) {
+  .navbar ul{
+    flex-flow: column;
+    padding: 0;
+  }
+  ul{
+    align-items: center;
+  }
+  img{
+    margin-top:250px;
+  }
+}
+

@@ -1,0 +1,36 @@
+*{
+    font-family: 'Lobster', cursive;
+}
+
+body{
+    background-image: url(Images/todolist-5a525e8aec2f640037454aba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: #14213d ;
+}
+#addblockarea{
+    margin-left: 10px;
+}
+#showallarea{
+margin-left: 10px;
+}
+#deleteallarea{
+    margin-left: 10px;
+}
+#list li{
+    list-style: none;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    opacity: 0.7;
+}
+
+li span{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:red;
+    /* margin-left: 20px; */
+}

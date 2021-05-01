@@ -1,0 +1,19 @@
+body {
+  background-image: url(233081.jpg);
+  font-family: "New Tegomin", serif;
+  background-size: cover;
+}
+#city{
+    border-radius: 5px;
+}
+#displayblock {
+  background-color: black;
+  text-align: center;
+  color: orangered;
+  color: #ffd60a;
+  padding: 10px;
+  opacity: 0.86;
+  width: 60%;
+  font-weight: bolder;
+  border-radius: 10px;
+}

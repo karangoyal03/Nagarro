@@ -1,0 +1,36 @@
+* {
+  font-family: 'New Tegomin', serif;
+}
+
+body {
+  background-image: url(Images/notebook-with-2019-to-do-list-massage-with-pencil-glasses-phone-and-cup-of-coffee-on-wood-background-P381KJ.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2 {
+  color: white;
+}
+#addblockarea {
+  margin-left: 10px;
+}
+#showallarea {
+  margin-left: 10px;
+}
+#deleteallarea {
+  margin-left: 10px;
+}
+#list li {
+  list-style: none;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: rgb(135, 143, 177);
+  text-align: center;
+  opacity: 0.9;
+}
+
+li span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: rgb(255, 0, 0);
+  /* margin-left: 20px; */
+}
